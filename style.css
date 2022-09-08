@@ -1,0 +1,75 @@
+:root {
+  --black: #252525;
+  --orange: #ffa400;
+  --red: #fc2933;
+  --white: #ffffff;
+  --linear-gradient1: #ffa100;
+  --linear-gradient2: #fb103d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--black);
+}
+
+.div-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 150px;
+  padding: 0 70px;
+}
+
+.logo-empresa {
+  animation: 1s slide-bottom ease-in-out;
+  width: 76px;
+  height: 79px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.li-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.li-home a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 14px;
+}
+
+.li-home a:last-child:hover {
+  color: var(--orange);
+  transition: all 0.5s ease-in-out;
+}
+
+.cart-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.cart-icon {
+  width: 20%;
+  height: 30px;
+}

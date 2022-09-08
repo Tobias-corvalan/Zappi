@@ -1,0 +1,8 @@
+@keyframes slide-bottom {
+  from {
+    transform: translateY(-150px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
