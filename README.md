@@ -1,3 +1,3 @@
 # Zappi
 
-Integrantes: Tobias Corvalan, Nahuel Medina, Gustavo Quiroga.
+Integrantes: Tobias Corvalan, Nahuel Medina, Gustavo Quiroga, Ariel Troche
