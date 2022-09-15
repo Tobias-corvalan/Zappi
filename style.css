@@ -232,3 +232,83 @@ main
   font-weight: 600;
 }
 
+.popular
+{
+  display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  width: 282px;
+  height: 213px;
+  border-radius: 15px;
+  background-color: var(--black);
+  padding: 16px 23px;
+}
+
+.contenedor-populares{
+  display: flex;
+  gap: 20px 20px;
+  align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.popular h4{
+color: var(--white);
+font-size: 15px;
+font-weight: 500;
+}
+
+.popular p{
+  color: gray;
+  font-size: 14px;
+}
+.popular span{
+   background:linear-gradient(to right,var(--orange),var(--red));
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+
+
+
+.boton-comprar{
+  width: 85px;
+height: 29px;
+  background:linear-gradient(to right,var(--orange),var(--red));
+  text-decoration: none;
+  color: var(--white);
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 7px 15px;
+}
+.precio-agregar{
+width: 237px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.titulo-populares{
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 500;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.popular-text{
+display: flex;
+height: 300px;
+flex-direction: column;
+justify-content: center;
+gap: 5px;
+padding-top: 10px;
+}
+
+
