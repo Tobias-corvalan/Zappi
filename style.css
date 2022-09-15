@@ -302,7 +302,9 @@ h3 span{
       align-items: flex-start;
       gap: 10px;
   }
-
+  
+footer p{
+  color: white;
 }
 
 .popular
