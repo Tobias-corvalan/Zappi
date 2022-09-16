@@ -248,7 +248,7 @@ main
     color: var(--white);
 }
 
-.titulo
+.cat-titulo
   {
   display: flex;
   width: 91%;
